@@ -2,9 +2,10 @@ list = ["水","金","地","火","木","土","天","海","冥"]
 
 for planet in list:
   print(planet)
+  
+print("------------------------------------------------")
 
-i = 1
-while i < 2:
-  for planet in list:
-    print(planet)
-  i = i + 1
+i = 0
+while i < 9:
+    print(list[i])
+    i = i + 1

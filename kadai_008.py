@@ -3,13 +3,13 @@
 # ください。
 # ただし、変数varは正の整数とします。
 
-var = int(11)
+var = int(30)
 
-if var % 3 ==0:
+if  var%3 == 0 and var%5 == 0:
+    print("FizzBazz")
+elif var % 3 ==0:
     print("Fizz")
 elif var % 5 ==0:
     print("Buzz")
-elif var%3 == 0 and var%5 == 0:
-    print("FizzBazz")
 else:
     print(var)
